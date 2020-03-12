@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <title>Contacto</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <a class="navbar-brand">Tomxel</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="quienessomos.html">¿Quienes somos?</a></li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown">Trabajos<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="cdc.html">Centro de computos 2018</a></li>
+                <li><a href="apple.html">Apple Brasil</a></li>
+                <li><a href="milazzo.html">Operativo Milazzo</a></li> 
+              </ul>
+            </li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown">Idioma<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="contacto.html">Español</a></li>
+                <li><a href="contacto_ing.html">Ingles</a></li> 
+            </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+<main>
+<div class="container">
+  <h1 class="text-center">Contactenos</h1>
+  <p class="text-center"><em>Su consulta es importante</em></p>
+  <div class="row test">
+    <div class="col-md-4">
+      <p>Nuestros datos</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Buenos Aires, Argentina</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Teléfono: +11 1515-1515</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: tomxel@gmail.com</p> 
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="Name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="Email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="Comment" placeholder="Comment" rows="5"></textarea>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Enviar</button>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+</main>
+
+
+<footer class="text-center">
+  <p>Tomxel & Partners &copy; 2014</p> 
+</footer>
+</body>
+</html>
